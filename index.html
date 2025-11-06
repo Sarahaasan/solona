@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="./output.css"> -->
+    <!-- remix icon  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <title>Solana</title>
+  </head>
+  <body class="bg-black text-wrap">
+    <header
+      class="bg-[url('./images/hero.jpg')] bg-cover bg-center h-screen w-full"
+    >
+      <div class="w-full bg-black bg-opacity-70">
+        <nav
+          class="relative max-w-6xl mx-auto flex justify-between items-center p-4"
+        >
+          <img
+            src="./images/nav.png"
+            alt="Logo"
+            class="w-[150px] cursor-pointer"
+          />
+          <ul
+            id="menu"
+            class="hidden md:flex flex-col md:flex-row absolute top-full right-4 md:static bg-black bg-opacity-90 md:bg-transparent p-4 md:p-0 gap-4 md:gap-6 rounded-md"
+          >
+            <li
+              class="text-[rgba(132,136,149,1)] cursor-pointer"text-gray-400"
+            >
+              Learn
+            </li>
+            <li
+              class="text-[rgba(132,136,149,1)] cursor-pointer"text-gray-400"
+            >
+              Build
+            </li>
+            <li
+              class="text-[rgba(132,136,149,1)] cursor-pointer"text-gray-400"
+            >
+              Network
+            </li>
+            <li
+              class="text-[rgba(132,136,149,1)] cursor-pointer"text-gray-400"
+            >
+              Community
+            </li>
+          </ul>
+
+          <!-- Burger Icon -->
+          <button
+            id="burger"
+            class="md:hidden flex flex-col gap-1 w-6 h-6 cursor-pointer"
+          >
+            <i class="ri-menu-line text‑2xl text-white text-4xl"></i>
+          </button>
+        </nav>
+      </div>
+
+      <!-- Hero  -->
+      <div
+        class="text-center flex flex-col justify-center items-center h-[80vh] px-4 gap-4"
+      >
+        <p
+          class="text-[2.75rem] md:text-[3.75rem] w-[25rem] md:w-[47rem] text-white"
+        >
+          Powerful for developers. Fast for everyone.
+        </p>
+        <p class="text-[rgba(255,255,255,1)] md:w-[27rem] w-[20rem]">
+          Bring blockchain to the people. Solana supports experiences for power
+          users, new consumers, and everyone in between.
+        </p>
+        <div class="flex flex-col md:flex-row gap-4 mt-4 text-white">
+          <button
+            class="rounded-full bg-gradient-to-r from-[#8C01FA] to-black px-6 py-2"
+          >
+            Start Building
+          </button>
+          <button class="border-2 rounded-full px-6 py-2">Read Docs</button>
+        </div>
+      </div>
+    </header>
+    <!-- sponsers  -->
+    <section class="pb-[4.75rem]">
+      <p class="text-[rgba(97,138,220,1)] text-center">
+        Powering tools and integrations from companies all around the world
+      </p>
+      <div
+        class="max-w-6xl mx-auto gap-4 mt-8 px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-7 items-center"
+      >
+        <img
+          src="./images/Frame 1.png"
+          alt=" sponsers"
+          class="mx-auto mt-4 cursor-pointer"
+        />
+        <img
+          src="./images/Frame 2.png"
+          alt=" sponsers"
+          class="mx-auto mt-4 cursor-pointer"
+        />
+        <img
+          src="./images/Frame 3.png"
+          alt=" sponsers"
+          class="mx-auto mt-4 cursor-pointer"
+        />
+        <img
+          src="./images/Frame 4.png"
+          alt=" sponsers"
+          class="mx-auto mt-4 cursor-pointer"
+        />
+        <img
+          src="./images/Frame 5.png"
+          alt="sponsers"
+          class="mx-auto mt-4 cursor-pointer"
+        />
+        <img
+          src="./images/Frame 6.png"
+          alt=" sponsers"
+          class="mx-auto mt-4 cursor-pointer"
+        />
+        <img
+          src="./images/Frame 7.png"
+          alt=" sponsers"
+          class="mx-auto mt-4 cursor-pointer"
+        />
+      </div>
+    </section>
+    <!-- next section -->
+    <section
+      class="bg-[url('./images/section.jpg')] bg-cover bg-center min-h-screen w-full overflow-hidden"
+    >
+      <div class="cont text-white max-w-[905px] mx-auto">
+        <!-- 1 -->
+        <div
+          class="flex gap-4 justify-between flex-col md:flex-row pl-[44px] pr-[12px] md:px-0 pt-[100px] flex-wrap"
+        >
+          <p class="text-5xl mt-4">Join a Community Of Millions</p>
+          <div>
+            <h2
+              class="text-7xl font-bold text-center bg-gradient-to-r from-[#19FB9B] to-[#8C01FA] bg-clip-text text-transparent"
+            >
+              11.5M+
+            </h2>
+            <p class="text-gray-500">Active Accounts</p>
+            <h2
+              class="text-7xl font-bold text-center bg-gradient-to-r from-[#19FB9B] to-[#8C01FA] bg-clip-text text-transparent"
+            >
+              21.9
+            </h2>
+            <p class="text-gray-500">NFTs minted</p>
+            <h2
+              class="text-7xl font-bold text-center bg-gradient-to-r from-[#19FB9B] to-[#8C01FA] bg-clip-text text-transparent"
+            >
+              $0.00025
+            </h2>
+            <p class="text-gray-500">Average cost per transaction</p>
+          </div>
+        </div>
+        <!-- 2  -->
+        <div
+          class="flex gap-4 justify-between flex-col md:flex-row pl-[44px] pr-[12px] md:px-0 pt-[100px]"
+        >
+          <div>
+            <p class="text-5xl mt-4">Made for mass adoption</p>
+            <p class="text-gray-500 ml-6 flex items-center mt-3">
+              <span
+                class="w-2 h-2 rounded-full bg-teal-300 inline-block mr-3"
+              ></span
+              >Live Data
+            </p>
+          </div>
+          <!-- container  -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-[6rem] mt-8">
+            <!-- fast -->
+            <div>
+              <h2 class="text-3xl">
+                <span class="w-1 h-5 inline-block bg-teal-300"></span> Fast
+              </h2>
+              <p class="w-[16.375rem] text-gray-500 py-3">
+                Don’t keep your users waiting. Solana has block times of 400
+                milliseconds — and as hardware gets faster, so will the network.
+              </p>
+              <p class="text-3xl flex items-center">
+                <span
+                  class="w-2 h-2 rounded-full bg-teal-300 inline-block mr-2"
+                ></span
+                >3.936
+              </p>
+              <p class="uppercase text-gray-500 py-3">
+                Transactions per second
+              </p>
+            </div>
+            <!-- decentrlized -->
+            <div>
+              <h2 class="text-3xl">
+                <span class="w-1 h-5 inline-block bg-orange-500"></span>
+                Decentralized
+              </h2>
+              <p class="w-[16.375rem] text-gray-500 py-3">
+                The Solana network is validated by thousands of nodes that
+                operate independently of each other, ensuring your data remains
+                secure and censorship resistant.
+              </p>
+              <p class="text-3xl flex items-center">
+                <span
+                  class="w-2 h-2 rounded-full bg-teal-300 inline-block mr-2"
+                ></span
+                >1,675
+              </p>
+              <p class="uppercase text-gray-500 py-3">Validator nodes</p>
+            </div>
+            <!-- scalable -->
+            <div>
+              <h2 class="text-3xl">
+                <span class="w-1 h-5 inline-block bg-blue-700"></span> Scalable
+              </h2>
+              <p class="w-[16.375rem] text-gray-500 py-3">
+                Get big, quick. Solana is made to handle thousands of
+                transactions per second, and fees for both developers and users
+                remain less than $0.01.
+              </p>
+              <p class="text-3xl">163,077,581,394</p>
+              <p class="uppercase text-gray-500 py-3">
+                Transactions per second
+              </p>
+            </div>
+            <!-- energy -->
+            <div>
+              <h2 class="text-3xl">
+                <span class="w-1 h-5 inline-block bg-lime-700"></span> Energy
+                Efficient
+              </h2>
+              <p class="w-[16.375rem] text-gray-500 py-3">
+                Don’t keep your users waiting. Solana has block times of 400
+                milliseconds — and as hardware gets faster, so will the network.
+              </p>
+              <p class="text-3xl flex items-center">
+                <span
+                  class="w-2 h-2 rounded-full bg-teal-300 inline-block mr-2"
+                ></span
+                >0%
+              </p>
+              <p class="uppercase text-gray-500 py-3">
+                Transactions per second
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--build for growth  -->
+    <section class="max-w-[905px] mx-auto text-white pl-[44px] pr-[12px] md:px-0 pt-[100px] ">
+      <!--  -->
+      <div class="flex justify-between flex-col md:flex-row gap-3">
+        <h2 class="text-3xl">Build for growth</h2>
+        <div class="flex gap-4">
+        <button class="bg-[rgb(29,30,33)] text-white rounded-xl p-2 border border-transparent hover:border-purple-600 transition-all duration-500 ">  NFTs </button>
+        <button class="bg-[rgb(29,30,33)] text-white rounded-xl p-2 border border-transparent hover:border-purple-600 transition-all duration-500 ">  DEfi </button>
+        <button class="bg-[rgb(29,30,33)] text-white rounded-xl p-2 border border-transparent hover:border-purple-600 transition-all duration-500 ">  Payments  </button>
+        <button class="bg-[rgb(29,30,33)] text-white rounded-xl p-2 border border-transparent hover:border-purple-600 transition-all duration-500 ">  FAQs </button>
+        </div>
+      </div>
+      <!--  -->
+      <div class="bg-[rgb(29,30,33)] flex justify-between flex-col md:flex-row mt-[20px] flex-wrap " >
+        <img src="./images/432d2db28c9f980270b3dd81e00b0df77198e3fd.jpg" alt="image" class= " w-full md:w-1/2">
+        <div class="pt-[4.25rem] py-auto pl-7 md:pl-0">
+          <img src="./images/anybody.png" alt="logo" class="w-36  ">
+          <p class="w-[23rem] py-5">It’s time to bridge the digital and physical. Anybodies helps established brands like Toys’R’Us connect real-life places and products with NFTs.</p>
+      <p class="text-purple-600 ">Learn more about NFTs on solona</p>
+        </div>
+      </div>
+      <!--  -->
+      <div class="bg-[rgb(16,17,18)] flex justify-evenly mt-11 p-6 rounded-xl">
+        <img src="./images/1.png" alt="1" class="w-[2em]">
+        <img src="./images/2.png" alt="2" class="w-[2em]">
+        <img src="./images/3.png" alt="3" class="w-[2em]">
+        <img src="./images/4.png" alt="4" class="w-[2em]">
+      </div>
+    </section>
+
+<!-- last section -->
+ <section class="class= bg-[url('./images/section.jpg')] bg-cover bg-center min-h-screen w-full overflow-hidden py-20" >
+    <div class="max-w-6xl mx-auto text-center">
+
+   
+      <h2 class="text-3xl md:text-4xl font-semibold mb-8">
+        Join a thriving community.
+      </h2>
+
+   <div class="flex flex-col md:flex-row ">
+     <img src="./images/last.jpg" alt="group of peaple" class="w-[600px]">
+     <div class="flex flex-col gap-4">
+      <img src="./images/last2.jpg" alt="group of peaple" class="w-[300px] h-[200px]">
+      <div class="w-[300px] h-[185px] bg-[rgb(16,17,18)] "> 
+        <p class="text-green-600 py-5 text-5xl">48,0000</p>
+        <p class="text-gray-500">Developers building during Solana Hackathons</p>
+      </div>
+     </div>
+     <img src="./images/last2.jpg" alt="group of peaple" class="w-[300px] h-[400px]">
+   </div>
+
+      
+      <p class="text-4xl mb-6 text-white py-5">
+        It's time to join the thousands of creators, artists, and developers using Solana.
+      </p>
+
+          <button
+            class="rounded-full bg-gradient-to-r from-[#8C01FA] to-black px-6 py-2 text-white p-6 text-2xl"
+          >
+            Start Building
+          </button>
+
+    </div>
+  </section>
+
+
+
+<!-- footer -->
+
+ <footer class="border-t border-gray-800 py-10 px-8 mt-11">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
+      
+    
+      <div>
+        <div class="  space-x-2 mb-4">
+          <img src="./images/nav.png" alt="Solana" class="w-[150px] cursor-pointer">
+          <p class="text-white font-medium">Managed by Solana Foundation</p>
+        </div>
+
+        <div class="flex space-x-4 text-xl mb-4">
+          <a href="#" class="text-white"><i class="ri-youtube-fill"></i></a>
+          <a href="#" class="text-white"><i class="ri-twitter-x-fill"></i></a>
+          <a href="#" class="text-white"><i class="ri-discord-fill"></i></a>
+          <a href="#" class="text-white"><i class="ri-github-fill"></i></a>
+          <a href="#" class="text-white"><i class="ri-telegram-fill"></i></a>
+        </div>
+
+        <p class="text-sm text-gray-500">© 2023 Solana Foundation. All rights reserved.</p>
+      </div>
+
+     
+      <div>
+        <h3 class="text-white font-semibold mb-3">SOLANA</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-white">Grants</a></li>
+          <li><a href="#" class="text-white">Break Solana</a></li>
+          <li><a href="#" class="text-white">Media Kit</a></li>
+          <li><a href="#" class="text-white">Careers</a></li>
+          <li><a href="#" class="text-white">Disclaimer</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-white font-semibold mb-3">GET CONNECTED</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-white">Ecosystem</a></li>
+          <li><a href="#" class="text-white">Blog</a></li>
+          <li><a href="#" class="text-white">Newsletter</a></li>
+        </ul>
+
+        <div class="mt-6 flex items-center space-x-2">
+          <i class="ri-earth-line text-gray-400"></i>
+          <span class="text-sm text-gray-400">EN</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+    <script>
+      const burger = document.getElementById("burger");
+      const menu = document.getElementById("menu");
+
+      burger.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
